@@ -21,7 +21,7 @@ class Documax < Formula
 
     system bin/"documax", "pack", source
     archive = testpath/"project-documax.md"
-    assert_predicate archive, :exist?
+    assert_path_exists archive
 
     system bin/"documax", "validate", archive
   end
