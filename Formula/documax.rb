@@ -1,8 +1,8 @@
 class Documax < Formula
   desc "Package and restore directory trees as portable documents"
   homepage "https://github.com/sbanik/documax"
-  url "https://github.com/sbanik/documax/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "5ddaaff38bdcb0778d5ec9313925663ed5af540b3ef7e59832a1f67db5faa8c6"
+  url "https://github.com/sbanik/documax/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "a0c3ec26a2828dcbaed37e801d0098abb17c1603d5fffc9e38151811bc589057"
   license "MIT"
 
   depends_on "go" => :build
